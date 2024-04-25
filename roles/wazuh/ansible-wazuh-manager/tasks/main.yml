@@ -317,7 +317,7 @@
 - name: Ensure Wazuh Manager service is started and enabled.
   service:
     name: "wazuh-manager"
-    enabled: true
+#    enabled: true
     state: started
   tags:
     - config
