@@ -92,7 +92,7 @@
             ip: "{{ hostvars.dashboard.private_ip }}"
             role: dashboard
 
- Wazuh cluster
+ # Wazuh cluster
     - hosts: manager
       roles:
         - role: "../roles/wazuh/ansible-wazuh-manager"
